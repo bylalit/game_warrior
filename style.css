@@ -273,5 +273,31 @@ hero abi bhi ahura he */
 }
 .games .tital h3{
     font-size: 35px;
+}
 
+.games .game-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 0 170px;
+    margin-top: 70px;
+}
+
+.games .game-box .game1{
+    height: 230px; 
+    background-image: url(images/1.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.games .game-box .game2{
+    height: 230px; 
+    background-image: url(images/2.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.games .game-box .game3{
+    height: 230px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    margin: 10px;
 }
