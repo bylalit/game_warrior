@@ -245,3 +245,33 @@ hero abi bhi ahura he */
     opacity: 0.7;
     font-size: 13px;
 }
+
+
+.games{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/recent-game-bg.png.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #eef2f6;
+}
+
+.games .tital{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.games .tital button{
+    padding: 8px 25px;
+    background-color: #ff205f;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .tital h3{
+    font-size: 35px;
+
+}
