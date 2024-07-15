@@ -26,6 +26,32 @@
         </div>
     </div>
 
+
+    <div class="hero">
+      <img src="images/slider-1.jpg.webp" id="image" >
+  </div>
+
+
+
+
+
+
+  
+  <script>
+     let imagesArray = [
+                "images/slider-1.jpg.webp" ,
+                "images/slider-2.jpg.webp" 
+            ];
+
+            let i = 0;
+            setInterval(function () {
+                document.getElementById("image").src = imagesArray[i];
+                i++;
+                if(i > imagesArray.length-1) {
+                    i = 0;
+                }
+            }, 3000);
+  </script>
 </body>
 </html>
 
