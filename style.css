@@ -260,7 +260,7 @@ hero abi bhi ahura he */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .games .tital button{
     padding: 8px 25px;
@@ -280,24 +280,142 @@ hero abi bhi ahura he */
     grid-template-columns: auto auto auto;
     align-items: center;
     padding: 0 170px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
-
-.games .game-box .game1{
-    height: 230px; 
+.games .game-box .game-box1{
+    margin: 10px;
+}
+.games .game-box .game-box1 .game1{
+    height: 200px; 
     background-image: url(images/1.jpg\ \(1\).webp);
     background-repeat: no-repeat;
+   padding: 20px;
+}
+.games .game-box .game-box1 .game1 button{
+    padding: 8px 25px;
+    background-color: #ff205f;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.games .game-box .game-box1 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+}
+
+.games .game-box .game-box1 .game-text h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box1 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.games .game-box .game-box1 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+.games .game-box .game-box2{
     margin: 10px;
 }
-.games .game-box .game2{
-    height: 230px; 
+.games .game-box .game-box2 .game2{
+    height: 200px; 
     background-image: url(images/2.jpg\ \(1\).webp);
     background-repeat: no-repeat;
+    padding: 20px;
+}
+.games .game-box .game-box2 .game2 button{
+    padding: 8px 25px;
+    background-color: #694eae;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.games .game-box .game-box2 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+}
+
+.games .game-box .game-box2 .game-text h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box2 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.games .game-box .game-box2 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+.games .game-box .game-box3{
     margin: 10px;
 }
-.games .game-box .game3{
-    height: 230px; 
+.games .game-box .game-box3 .game3{
+    height: 200px; 
     background-image: url(images/3.jpg\ \(1\).webp);
     background-repeat: no-repeat;
-    margin: 10px;
+    padding: 20px;
+}
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
 }
