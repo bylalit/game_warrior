@@ -281,9 +281,12 @@ hero abi bhi ahura he */
     align-items: center;
     padding: 0 170px;
     margin-top: 50px;
+    width: 100%;
+    column-gap:20px;
 }
 .games .game-box .game-box1{
     margin: 10px;
+    width: 100%;
 }
 .games .game-box .game-box1 .game1{
     height: 200px; 
@@ -308,7 +311,8 @@ hero abi bhi ahura he */
 }
 
 .games .game-box .game-box1 .game-text h5{
-    font-size: 18px;
+    font-size: 22px;
+    width: 80%;
     font-weight: 500;
     color: black;
     padding: 25px 0;
@@ -331,6 +335,7 @@ hero abi bhi ahura he */
 
 .games .game-box .game-box2{
     margin: 10px;
+    width: 100%;
 }
 .games .game-box .game-box2 .game2{
     height: 200px; 
@@ -355,7 +360,8 @@ hero abi bhi ahura he */
 }
 
 .games .game-box .game-box2 .game-text h5{
-    font-size: 18px;
+    font-size: 22px;
+    width: 80%;
     font-weight: 500;
     color: black;
     padding: 25px 0;
@@ -378,6 +384,7 @@ hero abi bhi ahura he */
 
 .games .game-box .game-box3{
     margin: 10px;
+    width: 100%;
 }
 .games .game-box .game-box3 .game3{
     height: 200px; 
@@ -401,7 +408,8 @@ hero abi bhi ahura he */
 }
 
 .games .game-box .game-box3 .game-text h5{
-    font-size: 18px;
+    font-size: 22px;
+    width: 80%;
     font-weight: 500;
     color: black;
     padding: 25px 0;
@@ -412,10 +420,80 @@ hero abi bhi ahura he */
     font-weight: 400;
     padding-bottom: 20px;
     line-height: 25px;
+    width: 80%;
 }
 .games .game-box .game-box3 .game-text p{
     color: black;
     opacity: 0.7;
     font-size: 13px;
     padding-bottom: 20px;
+}
+
+
+.card{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/pattern.png.webp);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card .card-1{
+    background-color: #252525;
+}
+.card .card-1 button{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+}
+
+.card .card-1 .contant{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+}
+.card .card-1 .contant .img {
+    width: 30%;
+}
+.card .card-1 .contant .img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.card .card-2{
+    background-color: #252525;
+}
+.card .card-1 button{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+}
+
+.card .card-2 .contant{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+}
+.card .card-2 .contant .img {
+    width: 20%;
+}
+.card .card-2 .contant .img img{
+    width: 100%;
 }
