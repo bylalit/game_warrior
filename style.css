@@ -439,6 +439,7 @@ hero abi bhi ahura he */
     justify-content: center;
     padding: 0 50px;
     column-gap: 30px;
+    margin-bottom: 100px;
 }
 .card .card-1{
     width: 40%;
@@ -552,4 +553,137 @@ hero abi bhi ahura he */
     color: white;
     opacity: 0.5;
     font-size: 12px;
+}
+
+.footer{
+    width: 100%;
+    background-image: url(images/pattern.png.webp);
+    
+}
+.foot{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    padding: 0 150px;
+    height: 100vh;
+}
+.foot .fot1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-position: bottom;
+    height: 450px;
+    background-image: url(images/footer-top-bg.png.webp);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.foot .fot1 .img img{
+    width: 80%;
+    padding-bottom: 40px;
+}
+.foot .fot1 p{
+    font-size: 14px;
+    color: white;
+    line-height: 25px;
+}
+
+
+.foot .fot2{
+    width: 100%;
+    background-color: #252525;
+    padding: 20px;
+    /* height: 450px; */
+}
+.foot .fot2 h3{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.foot .fot2 .pub{
+    display: flex;
+    margin-bottom: 30px;
+}
+.foot .fot2 .pub .j1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.foot .fot2 .pub img{
+    width: 100%;
+}
+.foot .fot2 .pub .texts{
+    padding-left: 20px;
+}
+.foot .fot2 .pub .texts h6{
+    color: orange;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+.foot .fot2 .pub .texts p{
+    color: white;
+    line-height: 22px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.foot .fot2 .pub .texts h5{
+    color: white;
+    opacity: 0.5;
+}
+
+.foot .fot3{
+    width: 100%;
+    background-color: #252525;
+    padding: 20px;
+    /* height: 450px; */
+}
+.foot .fot3 h3{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+.foot .fot3 .commet{
+    display: flex;
+    margin-bottom: 25px;
+}
+.foot .fot3 .commet img{
+    width: 19%;
+    border-radius: 50%;
+}
+.foot .fot3 .commet .txt{
+    padding-left: 20px;
+}
+.foot .fot3 .commet .txt h5{
+    color: #ff205f;
+    font-size: 12px;
+    padding-bottom: 7px;
+    line-height: 22px;
+    width: 80%;
+}
+.foot .fot3 .commet .txt h5 span{
+    color: white;
+    opacity: 0.5;
+}
+.foot .fot3 .commet .txt h5 p{
+    color: white;
+    display: inline-block;
+}
+.foot .fot3 .commet .txt h4{
+    color: orange;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.footer .fot-half{
+    width: 100%;
+    height: 70px;
+    background-color: #40abf5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
