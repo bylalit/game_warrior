@@ -557,8 +557,54 @@ hero abi bhi ahura he */
 
 
 
+.revie{
+    width: 100%;
+    background-image: url(images/review-bg.png.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.revie .tital{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.revie .tital button{
+    padding: 8px 25px;
+    background-color: #ff205f;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.revie .tital h3{
+    font-size: 35px;
+}
 
 
+.revie .main-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.revie .main-box .z1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.revie .main-box .z1 .bi{
+    background-image: url(images/4.jpg\ \(2\).webp);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 
