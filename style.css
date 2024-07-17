@@ -436,8 +436,9 @@ hero abi bhi ahura he */
     background-image: url(images/pattern.png.webp);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 0 50px;
+    column-gap: 30px;
 }
 .card .card-1{
     width: 40%;
