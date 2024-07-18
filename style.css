@@ -586,19 +586,21 @@ hero abi bhi ahura he */
 
 .revie .main-box{
     width: 100%;
-    display: flex;
+    display:grid;
     align-items: center;
     justify-content: space-between;
     padding: 0 150px;
     margin-top: 80px;
     margin-bottom: 100px;
+    grid-template-columns: auto auto auto auto;
 }
 
 .revie .main-box .z1{
     width: 100%;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
 }
 
 
@@ -669,12 +671,12 @@ hero abi bhi ahura he */
     .revie .main-box{
         padding: 0 100px;
     }
-    .foot{
-        padding: 0 100px;
-    }
     .card{
         padding: 0 100px;
     } 
+    .foot{
+        padding: 0 100px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
@@ -699,11 +701,61 @@ hero abi bhi ahura he */
     .card{
         padding: 0 40px;
     } 
+    .revie .main-box {
+        padding: 0 40px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
 }
 
 @media screen and (max-width: 900px) {
     .nav .logo img{
         width: 80%;
+    }
+    .games{
+        height: auto;
+    }
+    .games .game-box {
+        grid-template-columns: auto auto;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .card{
+        grid-template-columns: auto;
+        height: auto;
+        padding: 80px;
+        row-gap: 50px;
+    }
+    .card .card-1 .contant .img {
+        width: 30%;
+    }
+    .card .card-1 .contant .img img {
+        width: 80%;
+    }
+    .card .card-1 .contant .txt {
+        width: 70%;
+        padding-left: 0;
+    }
+
+    .card .card-2 .contant .img {
+        width: 30%;
+    }
+    .card .card-2 .contant .img img {
+        width: 80%;
+    }
+    .card .card-2 .contant .txt {
+        width: 70%;
+        padding-left: 0;
+    }
+
+    .revie{
+        background-position: left;
+    }
+    .revie .main-box{
+        grid-template-columns: auto auto;
+    }
+    .revie .main-box .z1 .bi {
+        width: 70%;
     }
 }
 
