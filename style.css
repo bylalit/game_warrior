@@ -431,17 +431,18 @@ hero abi bhi ahura he */
 
 
 .card{
-    width: 100%;
+   
     height: 70vh;
     background-image: url(images/pattern.png.webp);
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: center;
-    padding: 0 50px;
+    justify-content: space-around;
+    padding: 0 150px;
     column-gap: 30px;
+    grid-template-columns: auto auto;
 }
 .card .card-1{
-    width: 40%;
+    width: 100%;
     background-color: #252525;
 }
 .card .card-1 button{
@@ -499,7 +500,7 @@ hero abi bhi ahura he */
 
 
 .card .card-2{
-    width: 40%;
+    width: 100%;
     background-color: #252525;
 }
 .card .card-2 button{
@@ -560,7 +561,6 @@ hero abi bhi ahura he */
 .revie{
     width: 100%;
     background-image: url(images/review-bg.png.webp);
-    height: 100vh;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -590,6 +590,8 @@ hero abi bhi ahura he */
     align-items: center;
     justify-content: space-between;
     padding: 0 150px;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .revie .main-box .z1{
@@ -598,15 +600,112 @@ hero abi bhi ahura he */
     align-items: center;
     justify-content: space-evenly;
 }
+
+
 .revie .main-box .z1 .bi{
-    background-image: url(images/4.jpg\ \(2\).webp);
     width: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    padding: 10px;
+    position: relative;
+}
+.revie .main-box .z1 .bi img{
+    width: 100%;
+    
+}
+
+.revie .main-box .z1 .bi .round{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #2b00ff;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+    z-index: 10000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.revie .main-box .z1 .bi h5{
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+}
+.revie .main-box .z1 .bi p{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0px 5px 5px 5px;
 }
 
 
+
+@media screen and (max-width: 1350px) {
+    .ad{
+        padding: 80px 100px;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+    .nav .logo img{
+        width: 60%;
+    }
+    .ad{
+        padding: 80px;
+    }
+    .games .game-box{
+        padding: 0 130px;
+    }
+    .card .card-1 .contant .img {
+        width: 35%;
+    }
+    .card .card-2 .contant .img {
+        width: 35%;
+    }
+    .revie .main-box{
+        padding: 0 100px;
+    }
+    .foot{
+        padding: 0 100px;
+    }
+    .card{
+        padding: 0 100px;
+    } 
+}
+
+@media screen and (max-width: 1150px) {
+    .games .game-box{
+        padding: 0 80px;
+    }
+    .card{
+        padding: 0 70px;
+    } 
+    
+}
+
+@media screen and (max-width: 1080px) {
+    .ad{
+        padding: 80px 40px;
+        grid-template-columns: auto auto;
+        row-gap: 30px;
+    }
+    .games .game-box{
+        padding:  0 40px;
+    }
+    .card{
+        padding: 0 40px;
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .nav .logo img{
+        width: 80%;
+    }
+}
 
 
 
