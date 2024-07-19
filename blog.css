@@ -8,11 +8,70 @@
 
 .games{
     width: 100%;
-    padding:150px;
+    padding:0 150px;
     display: flex;
 }
 
+.search {
+    width: 40%;
+    padding: 10px 40px;
+}
+.search .box{
+    width: 100%;
+}
+.search .box input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    opacity: 0.5;
+    margin: 10px;
+}
 
+
+
+
+.search .box .fot2{
+    width: 100%;
+    padding: 70px 20px 20px 20px;
+}
+.search .box .fot2 h3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 40px;
+}
+
+.search .box  .fot2 .pub{
+    display: flex;
+    margin-bottom: 30px;
+}
+.search .box .fot2 .pub .j1{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.search .box .fot2 .pub img{
+    width: 100%;
+}
+.search .box .fot2 .pub .texts{
+    padding-left: 20px;
+}
+.search .box .fot2 .pub .texts h6{
+    color: orange;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+.search .box .fot2 .pub .texts p{
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.search .box .fot2 .pub .texts h5{
+    color: white;
+    opacity: 0.5;
+}
 
 
 
