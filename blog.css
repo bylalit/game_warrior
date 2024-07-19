@@ -13,7 +13,7 @@
 }
 
 .search {
-    width: 40%;
+    width: 35%;
     padding: 10px 40px;
 }
 .search .box{
@@ -45,7 +45,7 @@
     margin-bottom: 30px;
 }
 .search .box .fot2 .pub .j1{
-    width: 35%;
+    width: 33%;
     display: flex;
     align-items: center;
 }
@@ -75,8 +75,92 @@
 
 
 
+.search .box .fot3{
+    width: 100%;
+    padding: 20px;
+}
+.search .box .fot3 h3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 40px;
+}
+.search .box .fot3 .commet{
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.search .box .commet img{
+    width: 20%;
+    border-radius: 50%;
+}
+.search .box .commet .txt{
+    padding-left: 40px;
+}
+.search .box .commet .txt h5{
+    color: #ff205f;
+    font-size: 14px;
+    padding-bottom: 7px;
+    line-height: 22px;
+    width: 100%;
+    font-weight: 400;
+}
+.search .box .commet .txt h5 span{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+.search .box .commet .txt h5 p{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.search .box .commet .txt h4{
+    color: orange;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
+
+
+.search .box .a1{
+    background-image: url(images/1.jpg.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 30px 0 0 20px;
+    filter: grayscale(20%);
+}
+.search .box .a1 button{
+    padding: 8px 25px;
+    background-color: #ff205f;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom:130px;
+    font-weight: bold;
+}
+.search .box .a1 h5{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.search .box .a1 h6{
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.search .box .a1 p{
+    color: white;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
 
 
 
@@ -99,7 +183,7 @@
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    width: 60%;
+    width: 65%;
     column-gap:20px;
 }
 .games .game-box .game-box1{
