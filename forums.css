@@ -11,13 +11,83 @@
     background-image: url(images/community-bg.jpg.webp);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 0 120px;
+    padding: 0 80px;
 }
 
 .main .contant{
     width: 100%;
     height: 400vh;
     background-color: #b8b8b8a0;
-    padding: 0 30px;
-    /* background: transparent; */
+    padding: 0 110px;
+}
+.main .contant .tital{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.main .contant .tital h4{
+    font-size: 30px;
+}
+
+.main .contant .tital select{
+    font-size: 12px;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+
+.main .contant .box-1{
+    width: 100%;
+    background-color: #252525;
+    margin-bottom: 30px;
+    /* height: 300px; */
+}
+.main .contant .box-1 .commet{
+    display: flex;
+    padding: 40px 30px;
+}
+.main .contant .box-1 .commet .img-bg{
+    width: 25%;
+    margin-right: 30px;
+}
+.main .contant .box-1 .commet .img-bg img{
+    width: 100%;
+    border-radius: 50%;
+    padding-left:20px;
+}
+.main .contant .box-1 .commet .txt{
+    padding-left: 20px;
+}
+.main .contant .box-1 .commet .txt h5{
+    color: #ff205f;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 22px;
+    width: 80%;
+}
+.main .contant .box-1 .commet .txt h5 span{
+    color: rgba(255, 255, 255, 0.689);
+    opacity: 0.45;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.main .contant .box-1 .commet .txt h4{
+    color: orange;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.main .contant .box-1 .commet .txt p{
+    color: white;
+    line-height: 28px;
+    font-size: 13px;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.main .contant .box-1 .commet .txt img{
+    margin: 50px 0 20px;
 }
