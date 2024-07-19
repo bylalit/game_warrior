@@ -5,225 +5,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
-.games{
-    width: 100%;
-    padding:0 150px;
-    display: flex;
-}
-
-.search {
-    width: 35%;
-    padding: 10px 40px;
-}
-.search .box{
-    width: 100%;
-}
-.search .box input{
-    width: 100%;
-    padding: 10px 20px;
-    font-size: 14px;
-    opacity: 0.5;
-    margin: 10px;
-}
-
-
-
-
-.search .box .fot2{
-    width: 100%;
-    padding: 70px 20px 20px 20px;
-}
-.search .box .fot2 h3{
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    padding-bottom: 40px;
-}
-
-.search .box  .fot2 .pub{
-    display: flex;
-    margin-bottom: 30px;
-}
-.search .box .fot2 .pub .j1{
-    width: 33%;
-    display: flex;
-    align-items: center;
-}
-.search .box .fot2 .pub img{
-    width: 100%;
-}
-.search .box .fot2 .pub .texts{
-    padding-left: 20px;
-}
-.search .box .fot2 .pub .texts h6{
-    color: orange;
-    font-size: 14px;
-    font-weight: 400;
-    padding-bottom: 12px;
-    padding-top: 10px;
-}
-.search .box .fot2 .pub .texts p{
-    color: rgb(0, 0, 0);
-    line-height: 22px;
-    padding-bottom: 5px;
-    font-size: 13px;
-}
-.search .box .fot2 .pub .texts h5{
-    color: white;
-    opacity: 0.5;
-}
-
-
-
-.search .box .fot3{
-    width: 100%;
-    padding: 20px;
-}
-.search .box .fot3 h3{
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    padding-bottom: 40px;
-}
-.search .box .fot3 .commet{
-    display: flex;
-    margin-bottom: 25px;
-    align-items: center;
-    justify-content: center;
-}
-.search .box .commet img{
-    width: 20%;
-    border-radius: 50%;
-}
-.search .box .commet .txt{
-    padding-left: 40px;
-}
-.search .box .commet .txt h5{
-    color: #ff205f;
-    font-size: 14px;
-    padding-bottom: 7px;
-    line-height: 22px;
-    width: 100%;
-    font-weight: 400;
-}
-.search .box .commet .txt h5 span{
-    color: rgb(0, 0, 0);
-    opacity: 0.5;
-}
-.search .box .commet .txt h5 p{
-    color: rgb(0, 0, 0);
-    display: inline-block;
-}
-.search .box .commet .txt h4{
-    color: orange;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-
-
-
-.search .box .a1{
-    background-image: url(images/1.jpg.webp);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center; 
-    padding: 30px 0 0 20px;
-    filter: grayscale(20%);
-    margin: 30px 0 50px;
-}
-.search .box .a1 button{
-    padding: 8px 25px;
-    background-color: #ff205f;
-    border: none;
-    color: white;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom:130px;
-    font-weight: bold;
-}
-.search .box .a1 h5{
-    font-size: 22px;
-    font-weight: 400;
-    color: white;
-    padding-bottom: 20px;
-    width: 100%;
-}
-.search .box .a1 h6{
-    color: white;
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: 400;
-    width: 100%;
-    padding-bottom: 20px;
-}
-.search .box .a1 p{
-    color: white;
-    opacity: 0.7;
-    font-size: 13px;
-    padding-bottom: 50px;
-}
-
-
-
-.search .box .z1{
-    width: 100%;
-}
-
-
-.search .box .z1 .bi{
-    width: 100%;
-    position: relative;
-}
-.search .box .z1 .bi img{
-    width: 100%; 
-}
-
-.search .box .z1 .bi .round{
-    width: 50px;
-    height:50px;
-    border-radius: 50%;
-    background-color: #2b00ff;
-    position: absolute;
-    top: -5px;
-    left: 50px;
-    z-index: 10000;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-.search .box .z1 .bi h5{
-    font-size: 22px;
-    text-align: center;
-    padding: 20px 0;
-}
-.search .box .z1 .bi p{
-    text-align: center;
-    opacity: 0.5;
-    font-size: 14px;
-    line-height: 25px;
-    padding: 0px 5px 5px 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .games .game-box{
     display: grid;
     grid-template-columns: auto auto;
@@ -241,6 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 .games .game-box .game-box1 .game1 button{
     padding: 8px 25px;
@@ -282,8 +64,6 @@
     padding-bottom: 20px;
 }
 
-
-
 .games .game-box .game-box2{
     margin: 10px;
     width: 100%;
@@ -294,6 +74,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 .games .game-box .game-box2 .game2 button{
     padding: 8px 25px;
@@ -347,6 +128,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 
 .games .game-box .game-box3 .game3 button{
@@ -396,15 +178,16 @@
 }
 .games .game-box .game-box4 .game4{
     height: 200px; 
-    background-image: url(images/3.jpg\ \(1\).webp);
+    background-image: url(images/4.jpg\ \(3\).webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 
 .games .game-box .game-box4 .game4 button{
     padding: 8px 25px;
-    background-color: #40abf5;
+    background-color: #ff205f;
     border: none;
     color: white;
     font-size: 14px;
@@ -443,25 +226,22 @@
 }
 
 
-
-
-
-
 .games .game-box .game-box5{
     margin: 10px;
     width: 100%;
 }
 .games .game-box .game-box5 .game5{
     height: 200px; 
-    background-image: url(images/3.jpg\ \(1\).webp);
+    background-image: url(images/5.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 
 .games .game-box .game-box5 .game5 button{
     padding: 8px 25px;
-    background-color: #40abf5;
+    background-color: #694eae;
     border: none;
     color: white;
     font-size: 14px;
@@ -500,19 +280,17 @@
 }
 
 
-
-
-
 .games .game-box .game-box6{
     margin: 10px;
     width: 100%;
 }
 .games .game-box .game-box6 .game6{
     height: 200px; 
-    background-image: url(images/3.jpg\ \(1\).webp);
+    background-image: url(images/6.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 
 .games .game-box .game-box6 .game6 button{
@@ -556,24 +334,22 @@
 }
 
 
-
-
-
 .games .game-box .game-box7{
     margin: 10px;
     width: 100%;
 }
 .games .game-box .game-box7 .game7{
     height: 200px; 
-    background-image: url(images/3.jpg\ \(1\).webp);
+    background-image: url(images/7.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 
 .games .game-box .game-box7 .game7 button{
     padding: 8px 25px;
-    background-color: #40abf5;
+    background-color: #ff205f;
     border: none;
     color: white;
     font-size: 14px;
@@ -612,24 +388,22 @@
 }
 
 
-
-
-
 .games .game-box .game-box8{
     margin: 10px;
     width: 100%;
 }
 .games .game-box .game-box8 .game8{
     height: 200px; 
-    background-image: url(images/3.jpg\ \(1\).webp);
+    background-image: url(images/8.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 
 .games .game-box .game-box8 .game8 button{
     padding: 8px 25px;
-    background-color: #40abf5;
+    background-color: #694eae;
     border: none;
     color: white;
     font-size: 14px;
