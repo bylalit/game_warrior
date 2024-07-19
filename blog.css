@@ -7,51 +7,24 @@
 
 
 .games{
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/recent-game-bg.png.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #eef2f6;
+    width: 60%;
 }
-
-.games .tital{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-}
-.games .tital button{
-    padding: 8px 25px;
-    background-color: #ff205f;
-    border: none;
-    color: white;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-.games .tital h3{
-    font-size: 35px;
-}
-
 .games .game-box{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     align-items: center;
-    padding: 0 170px;
-    margin-top: 50px;
     width: 100%;
     column-gap:20px;
 }
 .games .game-box .game-box1{
-    margin: 10px;
     width: 100%;
+    margin: 10px;
 }
 .games .game-box .game-box1 .game1{
     height: 200px; 
     background-image: url(images/1.jpg\ \(1\).webp);
     background-repeat: no-repeat;
-   padding: 20px;
+    background-size: cover;
 }
 .games .game-box .game-box1 .game1 button{
     padding: 8px 25px;
@@ -67,6 +40,7 @@
     width: 100%;
     background-color: white;
     padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
 }
 
 .games .game-box .game-box1 .game-text h5{
@@ -100,7 +74,7 @@
     height: 200px; 
     background-image: url(images/2.jpg\ \(1\).webp);
     background-repeat: no-repeat;
-    padding: 20px;
+    background-size: cover;
 }
 .games .game-box .game-box2 .game2 button{
     padding: 8px 25px;
@@ -116,6 +90,7 @@
     width: 100%;
     background-color: white;
     padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
 }
 
 .games .game-box .game-box2 .game-text h5{
@@ -149,8 +124,9 @@
     height: 200px; 
     background-image: url(images/3.jpg\ \(1\).webp);
     background-repeat: no-repeat;
-    padding: 20px;
+    background-size: cover;
 }
+
 .games .game-box .game-box3 .game3 button{
     padding: 8px 25px;
     background-color: #40abf5;
@@ -164,6 +140,374 @@
     width: 100%;
     background-color: white;
     padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+    width: 80%;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+.games .game-box .game-box3{
+    margin: 10px;
+    width: 100%;
+}
+.games .game-box .game-box3 .game3{
+    height: 200px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+    width: 80%;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+.games .game-box .game-box3{
+    margin: 10px;
+    width: 100%;
+}
+.games .game-box .game-box3 .game3{
+    height: 200px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+    width: 80%;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.games .game-box .game-box3{
+    margin: 10px;
+    width: 100%;
+}
+.games .game-box .game-box3 .game3{
+    height: 200px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+    width: 80%;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.games .game-box .game-box3{
+    margin: 10px;
+    width: 100%;
+}
+.games .game-box .game-box3 .game3{
+    height: 200px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+    width: 80%;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.games .game-box .game-box3{
+    margin: 10px;
+    width: 100%;
+}
+.games .game-box .game-box3 .game3{
+    height: 200px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+    width: 80%;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.games .game-box .game-box3{
+    margin: 10px;
+    width: 100%;
+}
+.games .game-box .game-box3 .game3{
+    height: 200px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
+}
+
+.games .game-box .game-box3 .game-text h5{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+    color: black;
+    padding: 25px 0;
+}
+.games .game-box .game-box3 .game-text h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 25px;
+    width: 80%;
+}
+.games .game-box .game-box3 .game-text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.games .game-box .game-box3{
+    margin: 10px;
+    width: 100%;
+}
+.games .game-box .game-box3 .game3{
+    height: 200px; 
+    background-image: url(images/3.jpg\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games .game-box .game-box3 .game3 button{
+    padding: 8px 25px;
+    background-color: #40abf5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.games .game-box .game-box3 .game-text{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.621);
 }
 
 .games .game-box .game-box3 .game-text h5{
