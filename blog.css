@@ -134,6 +134,10 @@
     width: 50%;
 }
 
+.games {
+    margin-top: 50px;
+}
+
 .games .game-box{
     display: grid;
     grid-template-columns: auto auto;
@@ -590,6 +594,7 @@
     font-size: 14px;
     opacity: 0.5;
     margin: 10px;
+    margin-top: 40px;
 }
 
 
