@@ -487,7 +487,7 @@
     }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 450px){
     .footer .fot-half .menu {
         display: flex;
         flex-direction: column;

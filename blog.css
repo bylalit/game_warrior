@@ -796,11 +796,23 @@
     color: orange;
 }
 
+@media screen and (max-width: 1350px){
+    .games {
+        padding: 0 100px;
+    }
 
+    .search .box input {
+        margin: 10px;
+        margin-top: 30px;
+    }
+}
 
 @media screen and (max-width: 1250px) {
     .foot{
         padding: 0 100px;
+    }
+    .games {
+        padding: 0 70px;
     }
 }
 
@@ -809,10 +821,39 @@
     .foot{
         padding: 0 40px;
     }
+    .games {
+        padding: 0 30px;
+    }
+    .search .box .fot2 {
+        width: 100%;
+        padding: 40px 10px 10px 10px;
+    }
+    .search .box .fot2 .pub .j1 {
+        width: 72%;
+    }
 }
 
 
+
 @media screen and (max-width: 900px){
+
+    .games {
+        width: 100%;
+        display: block;
+        padding: 0 120px;
+    }
+
+    .games .game-box {
+        width: 100%;
+    }
+
+    .search {
+        width: 70%;
+        padding: 20px 0;
+    }
+    .search .box .fot2 .pub .j1 {
+        width: 30%;
+    }
 
     .foot{
         height: auto;
@@ -895,6 +936,18 @@
     .foot{
         padding: 0 100px;
     }
+    .games {
+        padding: 0 70px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .games .game-box {
+        grid-template-columns: auto;
+    }
+    .search {
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 
@@ -906,5 +959,24 @@
     .footer .fot-half h2 {
         line-height: 25px;
         text-align: center;
+    }
+
+    .games {
+        padding: 0 40px;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 450px){
+    .footer .fot-half .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .fot-half .menu a{
+        padding-bottom: 20px;
+        font-size: 18px;
     }
 }
